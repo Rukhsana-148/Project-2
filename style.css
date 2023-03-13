@@ -1,0 +1,38 @@
+*{
+    margin : 0px 0px;
+    padding : 0px 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1360px;
+}
+.container{
+    text-align: center;
+    height : 100vh;
+    background-color:RGB(42,61,129);
+
+}
+.container img{
+  border-radius: 50%;
+    margin-top : 10%;
+   
+}
+
+@media only screen and (min-width: 1000px){
+    .container img{
+         width : 350px;
+         height  : 300px;
+        border-radius: 50%;
+        margin-top :10%;
+    }
+}
+@media only screen and (max-width: 1000px ){
+    .container img{
+        width : 350px;
+        height  : 300px;
+        border-radius: 50%;
+    margin-top : 15%;
+    
+    }
+ 
+}
